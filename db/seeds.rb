@@ -19,8 +19,6 @@ puts "🏕 Seeding Restaurants..."
   )
 end
 
-puts "🏕 done Seeding Restaurants..."
-
 puts "🏕 Seeding Pizzas..."
 
 Pizza.create(
