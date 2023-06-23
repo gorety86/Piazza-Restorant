@@ -11,14 +11,15 @@
 
 puts "🏕 Seeding Restaurants..."
 
-7.times do
-
-    Restaurant.create(
-        name: Faker::Restaurant.name,
-        address: Faker::Address.street_address
-    )
-
+10.times do
+  Restaurant.create(
+    name: Faker::Restaurant.name,
+    address: Faker::Address.street_address,
+    contact: Faker::PhoneNumber.phone_number
+  )
 end
+
+puts "🏕 done Seeding Restaurants..."
 
 puts "🏕 Seeding Pizzas..."
 
