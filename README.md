@@ -4,7 +4,6 @@ API backend project for tracking pizza restaurants.
 
 Technologies Used
 Ruby on Rails
-AMG - Active Model Serializer
 SQLite3
 Installation & Set up
 Clone the repository
@@ -24,7 +23,8 @@ Relationships
 A Restaurant has many Pizzas through RestaurantPizza.
 A Pizza has many Restaurants through RestaurantPizza.
 A RestaurantPizza belongs to a Restaurant and also belongs to a Pizza.
-Deliverables
+
+# Deliverables
 GET /restaurants
 
 http://localhost:3000/restaurants
