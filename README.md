@@ -64,6 +64,7 @@ GET /restaurants
         "address": "199 Carlos Point"
     }
 ]
+
 GET /restaurants/:id
 
 {
@@ -88,6 +89,7 @@ GET /restaurants/:id
         }
     ]
 }
+
 GET /pizzas
 
 [
@@ -132,6 +134,7 @@ GET /pizzas
         "ingredients": " tomato, onion, anchovies, herbs"
     }
 ]
+
 POST /restaurant_pizzas
 
 {
@@ -139,8 +142,8 @@ POST /restaurant_pizzas
     "pizza_id": 1,
     "restaurant_id": 1
 }
-License and Copyright.
-MIT license
+# License and Copyright.
+# MIT license
 
 Copyright (c) [2023] [Gorety Wagutu]
 
@@ -150,7 +153,7 @@ The above copyright notice and this permission notice shall be included in all c
 
 THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.
 
-Author Info:
+# Author Info:
 Gorety Wagutu
 wagutugorety@gmail.com.
 
