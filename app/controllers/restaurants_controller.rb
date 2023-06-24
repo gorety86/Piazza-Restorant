@@ -10,7 +10,7 @@ class RestaurantsController < ApplicationController
         if restaurant
           render json: restaurant
         else
-          render json: { error: "Restaurant not found" }, status: :not_found
+          render json: { error: "Restaurant not found" }
         end
     end
 
