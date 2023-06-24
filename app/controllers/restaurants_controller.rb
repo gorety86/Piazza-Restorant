@@ -23,4 +23,9 @@ class RestaurantsController < ApplicationController
           render json: { error: "Restaurant not found" }
         end
     end
+
+    private
+    def restaurant_params
+      params.permit()
+    end
 end
