@@ -1,6 +1,6 @@
 # Pizza-Restaurant
 
-API backend project for tracking pizza restaurants.
+API backend project for tracking pizza restaurants. use[ http://localhost:3000] for the deliverables.
 
 Technologies Used
 Ruby on Rails
@@ -27,7 +27,6 @@ A RestaurantPizza belongs to a Restaurant and also belongs to a Pizza.
 # Deliverables
 GET /restaurants
 
-http://localhost:3000/restaurants
 [
     {
         "id": 1,
@@ -153,4 +152,5 @@ THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLI
 
 Author Info:
 Gorety Wagutu
+wagutugorety@gmail.com.
 
