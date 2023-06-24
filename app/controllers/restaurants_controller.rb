@@ -20,7 +20,7 @@ class RestaurantsController < ApplicationController
           restaurant.destroy
           head :no_content
         else
-          render json: { error: "Restaurant not found" }, status: :not_found
+          render json: { error: "Restaurant not found" }
         end
     end
 end
